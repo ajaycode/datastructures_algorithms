@@ -9,7 +9,7 @@ from linked_list import *
 
 class TestLinkedList (unittest.TestCase):
 
-    def test_get_all_elements (self):
+    def test_linked_list (self):
         l1 = LinkedList()
         l1.insert_at_start(5)
         l1.insert_at_start(4)

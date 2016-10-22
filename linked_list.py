@@ -66,7 +66,7 @@ class LinkedList (object):
     #O(1)
     def get_first_element (self):
         first_element = self.head
-        return first_element
+        return first_element.data
 
     def get_all_elements (self):
         elements = []
@@ -84,7 +84,7 @@ if __name__ == '__main__':
     l1.insert_at_start (5)
 
     element = l1.get_first_element()
-    print (element.data)
+    print (element)
     l1.insert_at_start(4)
     l1.insert_at_start(3)
     l1.insert_at_start(2)
